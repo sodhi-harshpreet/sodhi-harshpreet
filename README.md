@@ -87,14 +87,66 @@ I'm **Harshpreet**, an enthusiastic problem-solver and aspiring **Full-Stack Dev
 ---
 
 ### 🏆 Projects I’m Proud Of  
-1. **Digital Wallet Clone**  
-   - A project inspired by Paytm Wallet.  
-   - **Backend:** Built with Express.js, Zod, MongoDB, Mongoose, and JWT tokens for secure authentication.  
-   - **Frontend:** Developed with React, Tailwind CSS, and routing for a smooth user experience.  
+1. **💸 PayRaksh** – Secure Digital Payments App
 
-2. **Music Streaming App**  
-   - Collaborated with teammates to create a music streaming app using **Flutter**.  
-   - Focused on delivering an engaging and seamless music experience.  
+**PayRaksh** is a Paytm-inspired fintech application built with a modern monorepo architecture. It enables users to perform secure P2P transfers, scan and pay via QR codes, and earn rewards through an interactive scratch card system.
+
+🛠️ **Tech Stack**: React • Node.js • Express • PostgreSQL • Prisma • Supabase • TailwindCSS • JWT • Vite
+
+🔐 **Key Features**:
+- PIN-protected authentication & secure transactions
+- Real-time peer-to-peer money transfers
+- QR-based Scan to Pay functionality
+- Reward system with probability-based scratch cards (₹2 to ₹10)
+- Filterable transaction history (by type and date)
+- Clean, responsive UI with a purple & gold brand theme
+
+⚙️ **Architecture**:
+- Modular **monorepo** setup with:
+  - `user-server` for auth & transfers
+  - `merchant-server` for merchant payments
+  - `webhook-server` for rewards and external events
+- Shared types & logic for consistency across services
+
+📈 Built for scalability, security, and a modern digital payment experience.
+ 
+
+2. **🖋️ Inkspire**
+
+A modern full-stack blog platform built to deliver a fast, scalable, and friendly writing experience.
+
+## ✨ Features
+
+- 📝 **Create and manage blog posts**
+- 🔐 **User authentication & session management**
+- 🔄 **API-first architecture**
+- 🔄 **Shared types & validation between frontend and backend**
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- **React** + **TypeScript** + **Vite** for fast builds and HMR
+- **TailwindCSS** for utility-first styling
+- **React Router** for seamless client-side navigation
+
+### Backend
+
+- **Hono** – A lightweight web framework for speed and simplicity
+- **Prisma** – Type-safe ORM for data access
+- **Cloudflare Workers** – Serverless compute at the edge for performance and scalability
+
+### Shared Codebase
+
+- **Zod** for schema validation
+- Shared package for types and validation logic to maintain consistency across frontend and backend
+
+## 🚀 Deployment
+
+- Deployed using **Wrangler**, Cloudflare’s CLI tool for Worker deployments
+- Minimal setup for continuous integration and rapid shipping
+
+ 
 
 ---
 
