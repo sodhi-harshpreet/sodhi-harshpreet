@@ -82,7 +82,9 @@ I'm **Harshpreet**, an enthusiastic problem-solver and aspiring **Full-Stack Dev
     <img src="https://img.shields.io/badge/Zod-3178C6?style=flat&logoColor=white" alt="Zod" />
   </a>
 </p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sodhi-harshpreet&show_icons=true&locale=en&layout=compact" alt="sodhi-harshpreet" /></p>
 
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sodhi-harshpreet&show_icons=true&locale=en" alt="sodhi-harshpreet" /></p>
 
 ---
 
